@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div class="h"><%- include('./header') -%></div>
+    <div class="main">
+        <div>Blog: <%= username %></div>
+        <% if(username == 'galuera'){ %>
+        <%  console.log('черножопая')  %>
+        <%= 'negr' %>
+        <% } %>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero hic inventore in, sit ullam placeat et praesentium mollitia laboriosam temporibus tempore nihil doloremque accusantium eos! Quia, perferendis atque! Repudiandae, modi.</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 5vh;
+    background: #8caad2;
+    padding-top: 2.5%;
+}
+.head{
+    color: black;
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    margin-left: 15%;
+    text-decoration: none;
+    background: tan;
+}
+.main{
+    height: 91.5vh;
+    background: #cdd28c;
+}
+#form{
+    padding-left: 70%;
+}
+#input{
+    background: tan;
+}
+#button{
+    background: tan;
+}
